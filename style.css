@@ -97,6 +97,9 @@ tr {
   padding: 5px 10px;
   text-align: center;
 }
+  .btn:hover {
+  background-color: #04AA6D;
+}
 .hidden {
   display: none !important;
 }
@@ -147,7 +150,5 @@ tr a {
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
-  .btn:hover {
-  background-color: #04AA6D;
-}
+  
 
