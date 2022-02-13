@@ -70,7 +70,8 @@ h1 a {
 .invites a {
   color: white;
 }
-.invites {
+  .invites {
+  text-align: center;
 }
 table {
   width: 100%;
