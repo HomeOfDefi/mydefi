@@ -4,7 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:#0f0e200;
+  background-color:#0f0e100;
   background-image: 
     radial-gradient(at 0% 0%, hsla(230,11%,8%,1) 0, transparent 50%), 
     radial-gradient(at 50% 0%, hsla(300,31%,20%,1) 0, transparent 50%), 
