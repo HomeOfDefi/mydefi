@@ -159,13 +159,13 @@ h1 a {
   word-wrap: break-word;
   word-break: break-word;
   text-align: left;
-  color: white;
+  color: rgb(255, 4, 4);
   font-size: 16px;
 }
 
 /* Format invites class link tags */
 .invites a {
-  color: white;
+  color: rgb(255, 0, 0);
 }
 
 /* Format invites class */
@@ -190,19 +190,19 @@ td, th {
 
 /* Format th tags */
 th {
-  border-bottom: 1px solid rgba(255,255,255,0.2);
-  border-top: 1px solid rgba(255,255,255,0.2);
+  border-bottom: 1px solid rgb(255, 0, 0);
+  border-top: 1px solid rgb(255, 0, 0);
 }
 
 /* Format tr tags */
 tr {
   width: 100%;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgb(255, 0, 0);
 }
 
 /* Format btn class */
 .btn {
-  background: rgba(0,0,0,0.8); 
+  background: rgb(38, 0, 255); 
   padding: 5px 10px;
   text-align: center;
   width: 100%;
@@ -210,7 +210,7 @@ tr {
 }
 
 .btn:hover {
-  background-color: #04AA6D;
+  background-color: #018d5a;
 }
 
 /* Format hidden class */
@@ -223,7 +223,7 @@ tr {
   padding: 20px;
   box-sizing: border-box;
   font-size: 15px;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 0, 0, 0.1);
   margin-top: 20px;
   border-radius: 50px;
 }
@@ -235,12 +235,12 @@ tr img {
 
 /* Format tr a tags */
 tr a {
-  color: white;
+  color: rgb(255, 0, 0);
 }
 
 /* Format token class */
 .token {
-  background: rgba(0,0,0,0.3);
+  background: rgba(255, 0, 0, 0.3);
   padding: 5px;
   text-align: center;
   font-size: 12px;
@@ -314,8 +314,8 @@ tr a {
 }
 
 .socials button {
-  background-color: white;
-  color: black;
+  background-color: rgb(204, 6, 6);
+  color: rgb(132, 0, 255);
   border: 2px solid #4CAF50; /* Green */
 }
 
