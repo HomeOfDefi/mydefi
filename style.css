@@ -1,22 +1,22 @@
 /* Main site formatting */
 body {
   font-family: Garamond, serif;
-  color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 12px;
   justify-content: center;
   align-items: center;
-  background: url(../Images/Hnet.com-image.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  background: rgb(167, 23, 4);
   height: 100vh;
   /* GLOBAL STYLES 
   background-color:#0f0e40;
   background-image: 
-    radial-gradient(at 0% 0%, rgb(255, 0, 0) 0, transparent 50%), 
-    radial-gradient(at 50% 0%, rgb(250, 0, 146) 0, transparent 50%), 
-    radial-gradient(at 100% 0%, rgb(118, 2, 250) 0, transparent 50%);
+    radial-gradient(at 0% 0%, rgb(255, 100, 0) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, rgb(250, 100, 146) 0, transparent 50%), 
+    radial-gradient(at 100% 0%, rgb(118, 100, 250) 0, transparent 50%);
     min-height: 100vh;
   color: white; */
   overflow-x: hidden !important;
@@ -29,7 +29,7 @@ body {
 /* Add a black background color to the top navigation */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: rgba(0, 0, 0, 0);
   justify-content: center;
 }
 
@@ -200,6 +200,7 @@ tr {
   border-bottom: 1px solid white;
 }
 
+
 /* Format btn class */
 .btn {
   background: rgba(0,0,0,0.8); 
@@ -267,51 +268,6 @@ tr a {
   white-space: pre-line;
 }
 
-/* Format About */
-#team p {
-  text-align: center;
-  white-space: pre-line;
-}
-
-.left {
-  width: 50%;
-  height: 700px;
-  float: left;
-  align-content: center;
-}
-
-.right {
-  width: 50%;
-  height: 700px;
-  float: right;
-  align-content: center;
-}
-
-.left-faq {
-  width: 30%;
-  height: 100px;
-  float: left;
-  align-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.left-faq p {
-  white-space: pre-line;
-}
-
-.right-faq {
-  width: 70%;
-  height: 100px;
-  float: right;
-  align-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.left-faq p {
-  white-space: pre-line;
-}
 
 .socials button {
   background-color: white;
@@ -322,3 +278,4 @@ tr a {
 .main { 
   overflow-y: hidden
 }
+
