@@ -1,5 +1,3 @@
-
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 * {
@@ -74,6 +72,13 @@ ul li:hover {
   transition: 0.3s;
   color: #ffffff;
 }
+
+
+
+
+
+
+
 #hamburger-icon {
   margin: auto 0;
   display: none;
@@ -140,7 +145,7 @@ ul li:hover {
 
 .section-one {
   color: #ffffff;
-  background-image: linear-gradient(135deg, #e72910, #350e47);
+  background-image: linear-gradient(135deg, #df3f17, #152bf3);
   height: 700px;
 }
 .section-one-img {
@@ -176,7 +181,7 @@ ul li:hover {
 @media only screen and (max-width: 480px) {
   .section-one-heading {
     font-size: 35px;
-    margin-top: 70px;
+    margin-top: 190px;
   }
 }
 
@@ -199,7 +204,7 @@ ul li:hover {
 
 .about-section {
   padding-top: 30px;
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   padding-bottom: 70px;
 }
 .about-section-text {
@@ -261,6 +266,16 @@ ul li:hover {
   font-weight: 900;
   color: #000000;
 }
+@media only screen and (max-width: 480px) {
+  .roadmap-section-heading {
+    /* margin: 30px;  */
+   padding: 10px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #000000;
+    float: left;
+  }
+}
 .roadmap-section-phase {
   color: #000000;
   margin-top: 100px;
@@ -305,9 +320,18 @@ ul li:hover {
 .footer-section-heading {
   padding-top: 160px;
   display: block;
-  color: #e62a2a;
+  color: #ffffff;
   font-size: 70px;
   font-weight: 800;
+}
+@media only screen and (max-width: 480px) {
+  .footer-section-heading {
+    padding-top: 160px;
+    display: block;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 800;
+  }
 }
 .footer-section {
   background-color: #000000;
@@ -319,7 +343,7 @@ ul li:hover {
   border-radius: 30px;
 }
 .accordion {
-  background-image: linear-gradient(135deg, #1216ec, #350e47);
+  background-image: linear-gradient(135deg, #2811af, #350e47);
   color: #ffffff;
   cursor: pointer;
   padding: 18px;
@@ -368,10 +392,27 @@ ul li:hover {
 }
 
 .meet-section-img {
-  width: 300px;
-  height: 300px;
+  width: 240px;
+  height: 240px;
   border-radius: 170px;
   margin: 50px 0px;
+}
+@media only screen and (max-width: 768px) {
+  .meet-section-img {
+    width: 180px !important;
+    height: 180px !important;
+    border-radius: 170px !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .meet-section-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 }
 .meet-section-heading {
   color: #000000;
@@ -381,21 +422,22 @@ ul li:hover {
   color: #000000;
   font-size: 18px;
 }
-/* Sets the containers height and width */
-.base-timer {
-  position: relative;
-  height: 300px;
-  width: 300px;
+.meet-wonderland-heading{
+  margin: 70px;
+  padding: 40px;
+  font-size: 50px;
+  font-weight: 900;
+  color: #000000;
+  justify-content: center;
+align-items: center;
 }
-
-/* Removes SVG styling that would hide the time label */
-.base-timer__circle {
-  fill: none;
-  stroke: none;
-}
-
-/* The SVG path that displays the timer's progress */
-.base-timer__path-elapsed {
-  stroke-width: 7px;
-  stroke: grey;
+@media only screen and (max-width: 768px) {
+  .meet-wonderland-heading{
+    float: left;
+    margin: 0px;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 900;
+    color: #000000;
+  }
 }
