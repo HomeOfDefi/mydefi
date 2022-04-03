@@ -381,7 +381,7 @@ ul li:hover {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  font-size: 18px;
+  font-size:22px;
 }
 
 .faq-section {
