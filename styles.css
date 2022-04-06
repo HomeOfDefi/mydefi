@@ -377,11 +377,11 @@ ul li:hover {
 .panel {
   color: #000000;
   padding: 0 18px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  font-size: 22px !;
+  font-size: 24px;
 }
 
 .faq-section {
