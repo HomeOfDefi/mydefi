@@ -441,3 +441,11 @@ align-items: center;
     color: #000000;
   }
 }
+.button{
+  width:150px;
+  height: 50px;
+  border:2px solid red;
+  border-radius: 10px;
+  background-color: #ec0404;
+}
+
