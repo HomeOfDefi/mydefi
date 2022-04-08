@@ -395,7 +395,7 @@ ul li:hover {
   width: 240px;
   height: 240px;
   border-radius: 170px;
-  margin: 50px 0px;
+  margin: 50px 27px;
 }
 @media only screen and (max-width: 768px) {
   .meet-section-img {
