@@ -270,7 +270,7 @@ ul li:hover {
   .roadmap-section-heading {
     /* margin: 30px;  */
    padding: 10px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 900;
     color: #000000;
     float: left;
@@ -420,7 +420,7 @@ ul li:hover {
 }
 .meet-section-text {
   color: #000000;
-  font-size: 18px;
+  font-size: 20px;
 }
 .meet-wonderland-heading{
   margin: 70px;
@@ -448,4 +448,5 @@ align-items: center;
   border-radius: 10px;
   background-color: #ec0404;
 }
+
 
