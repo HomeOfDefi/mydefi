@@ -480,6 +480,15 @@ align-items: center;
     font-size: 30px;
   }
 }
-.bg {
-  background: url(./Images/3.png);
+@media only screen and (max-width: 768px) {
+  video {
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 480px) {
+  video {
+    width: 100%;
+    height: auto;
+  }
 }
