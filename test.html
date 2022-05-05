@@ -1,0 +1,40 @@
+<center><html>
+<body>
+<form>
+<input id='address' type='text' placeholder='enter contract address'>
+<input type='submit' value='snapshot'>
+</form>
+<h3>
+full
+</h3>
+<pre id='full'></pre>
+<h3>
+deduplicated
+</h3>
+<pre id='dedup'></pre>
+<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@3.0.0/dist/web3.min.js"></script>
+<script src="https://testnet.factoria.app/f0/token_abi.js"></script>
+<script src="https://unpkg.com/ipfsh@0.0.2/dist/ipfsh.min.js"></script>
+<script>
+var web3 = new Web3(window.ethereum);
+document.querySelector("form").addEventListener("submit", async (e) => {
+  e.preventDefault()
+  e.stopPropagation()
+  let collection = new web3.eth.Contract(token_abi, document.querySelector("#address").value);
+  let snapshot = []
+  let i = 1;
+  while(true) {
+  	try {
+			let owner = await collection.methods.ownerOf(i++).call()
+      snapshot.push(owner)
+      console.log(owner)
+    } catch (e) {
+      break;
+    }
+  }
+  document.querySelector("#full").innerHTML = snapshot.join("\n")
+  document.querySelector("#dedup").innerHTML = Array.from(new Set(snapshot)).join("\n")
+})
+</script>
+</body>
+</html></center>
