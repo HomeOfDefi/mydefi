@@ -1,40 +1,47 @@
-<center><html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+
+  height: 100%;
+  width: 100%
+}
+body {
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+</style>
+</head>
 <body>
-<form>
-<input id='address' type='text' placeholder='enter contract address'>
-<input type='submit' value='snapshot'>
-</form>
-<h3>
-full
-</h3>
-<pre id='full'></pre>
-<h3>
-deduplicated
-</h3>
-<pre id='dedup'></pre>
-<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@3.0.0/dist/web3.min.js"></script>
-<script src="https://testnet.factoria.app/f0/token_abi.js"></script>
-<script src="https://unpkg.com/ipfsh@0.0.2/dist/ipfsh.min.js"></script>
-<script>
-var web3 = new Web3(window.ethereum);
-document.querySelector("form").addEventListener("submit", async (e) => {
-  e.preventDefault()
-  e.stopPropagation()
-  let collection = new web3.eth.Contract(token_abi, document.querySelector("#address").value);
-  let snapshot = []
-  let i = 1;
-  while(true) {
-  	try {
-			let owner = await collection.methods.ownerOf(i++).call()
-      snapshot.push(owner)
-      console.log(owner)
-    } catch (e) {
-      break;
-    }
-  }
-  document.querySelector("#full").innerHTML = snapshot.join("\n")
-  document.querySelector("#dedup").innerHTML = Array.from(new Set(snapshot)).join("\n")
-})
-</script>
+
+
+<div class="bgimg-1">
+    <a href="index.html" target="blank" </a>
+    <img class="bgimg-1" src="./Images/Enter.png" />
+
+
+  </div>
+</div>
+
+
+
 </body>
-</html></center>
+</html>
