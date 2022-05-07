@@ -259,6 +259,62 @@ ul li:hover {
   }
 }
 
+.section-two {
+  padding-top: 30px;
+  background-image: linear-gradient(135deg, #f00000, #152bf3);;
+  padding-bottom: 70px;
+}
+.section-two-text {
+  line-height: 2.5rem;
+  font-size: 24px;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  display: block;
+}
+@media only screen and (max-width: 768px) {
+  .section-two-text {
+    line-height: 2.5rem;
+    font-size: 24px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: block;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .section-two-text {
+    line-height: 2.5rem;
+    font-size: 24px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: block;
+  }
+}
+
+.section-two-img {
+  width: 1300px;
+  height: 650px;
+}
+@media only screen and (max-width: 768px) {
+  .section-two-img {
+    width: 500px;
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .section-two-img {
+    width: 300px;
+    height: 300px;
+  }
+}
 .roadmap-section-heading {
   margin: 70px;
   padding: 40px;
