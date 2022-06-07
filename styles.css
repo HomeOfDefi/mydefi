@@ -145,16 +145,8 @@ ul li:hover {
 
 .section-one {
   color: #ffffff;
-  background-image: linear-gradient(135deg, #b4007e, #152bf3);
-  height: 700px;
-}
-.section-one-img {
-  margin-top: 70px;
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-  width: 500px;
-  height: 500px;
+  background-image: url("./Images/Wonderland_Wizards_23.png");
+  height: 3000px;
 }
 @media only screen and (max-width: 768px) {
   .section-one-img {
