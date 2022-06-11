@@ -44,3 +44,12 @@ for (i = 0; i < acc.length; i++) {
      document.getElementById("demo").innerHTML = "EXPIRED";
    }
  }, 1000);
+
+ MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\(', '\)']]
+  },
+  svg: {
+    fontCache: 'global',
+  }
+};
