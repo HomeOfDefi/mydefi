@@ -41,7 +41,7 @@ for (i = 0; i < acc.length; i++) {
    // If the count down is over, write some text 
    if (distance < 0) {
      clearInterval(x);
-     document.getElementById("demo").innerHTML = "EXPIRED";
+     document.getElementById("demo").innerHTML = "PROMO IS NOW OVER";
    }
  }, 1000);
 
