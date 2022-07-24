@@ -146,7 +146,7 @@ ul li:hover {
 .section-one {
   color: #ffffff;
   background-image: url("./Images/Wonderland_Wizards_23.png");
-  height: 3000px;
+  height: 1200px;
 }
 @media only screen and (max-width: 768px) {
   .section-one-img {
